@@ -63,7 +63,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		button1.setOnClickListener( this );
 		button2.setOnClickListener( this );
 
-		Log.i( LOG_TAG, "ExifInterfaceExtended.Version: " + BuildConfig.VERSION_NAME + " - " + BuildConfig.VERSION_CODE );
+		//Log.i( LOG_TAG, "ExifInterfaceExtended.Version: " + BuildConfig.VERSION_NAME + " - " + BuildConfig.VERSION_CODE );
 		processAsset( "image.jpg" );
 	}
 
